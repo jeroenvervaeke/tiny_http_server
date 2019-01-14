@@ -11,4 +11,4 @@ Tiny http docker server written in rust.
 `docker build -t tiny_http_server .`
 
 ## How to use the image
-`docker run -d -p 80:8080 -v $PWD:/var/www tiny_http_server:latest`
+`docker run -d -p 80:8080 -v $PWD:/var/www jeroenvervaeke/tiny_http_server:latest`
